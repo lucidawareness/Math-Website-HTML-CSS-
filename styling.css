@@ -1,0 +1,183 @@
+
+body {
+    font-family: Arial, Helvetica, SansSerif, serif;
+}
+
+#container {
+    /*border: 1px solid gray;*/
+    margin: 0 auto;
+
+}
+
+h1 a {
+    font-size: 50px;
+    font-weight: 100;
+    color: #861BBF;
+    text-decoration: none;
+}
+
+#header {
+    height: 100px;
+    padding: 10px 0;
+}
+
+#searchBox {
+    float: right;
+    background-color: #B7E953;
+    width: 400px;
+    height: 50px;
+    padding: 20px 20px 0 20px;
+    margin-top: 20px;
+    border: 1px solid gray;
+}
+
+#brand {
+    float: left;
+}
+
+.text {
+    float: left;
+    width: 200px;
+    padding: 5px;
+    font-size: 15px;
+    color: #E36A0C;
+    background: white url("img/search-icon.png") right center no-repeat;
+    background-size: 22px;
+    border: 1px solid #C8D035;
+
+}
+
+.submit{
+    float: right;
+    background: #861BBF;
+    padding: 5px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+#menu{
+    height: 70px;
+    background-color: #eeee2a;
+    padding: 7px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 5px;
+}
+
+#menu ul li:last-child{
+    border-right: none;
+}
+
+#menu ul li {
+    float: left;
+    padding: 0 30px;
+    height: 30px;
+    border-right: 1px solid #861BBF;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #861BBF;
+    line-height: 30px;
+    transition: font-size .3s ease;
+
+}
+
+#menu ul li a:hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: #861BBF;
+}
+
+#menu ul li a.active {
+    font-size: 20px;
+    font-weight: bold;
+    color: #861BBF;
+}
+
+#introduction{
+    background-color: #B7E953;
+    padding: 30px;
+    margin: 10px 0;
+}
+
+#introduction h3 {
+    font-size: 45px;
+    color: #316901;
+    font-weight: normal;
+}
+
+#introduction p {
+    font-size: 25px;
+    color: #628F19;
+    text-align: justify;
+}
+
+.sidebar {
+    width: 43%;
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 10px 30px;
+}
+
+.sidebar h3 {
+    font-size: 30px;
+    color: #5d12e7;
+}
+
+.sidebar ul {
+    padding-top: 8px;
+}
+
+#leftSidebar ul li {
+    padding-bottom: 10px;
+    padding-left: 40px;
+    background: white url("img/arrow.png") left center no-repeat;
+    background-size: 30px;
+}
+
+#rightSidebar ul li {
+    padding-bottom: 12px;
+    padding-left: 40px;
+    background: white url("img/tick.png") left center no-repeat;
+    background-size: 30px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    color: #5d12e7;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active {
+    text-decoration: none;
+    color: #B314DB;
+    font-size: 23px;
+    font-weight: bold;
+    transition: font-size .3s ease;
+}
+
+#leftSidebar{
+    float: left;
+}
+
+#rightSidebar{
+    float: right;
+}
+
+.footer {
+    height: 60px;
+    padding: 10px 30px;
+    margin-top: 15px;
+    background-color: #D5D533;
+    width: 100%;
+}
